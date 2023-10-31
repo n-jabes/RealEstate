@@ -1,0 +1,172 @@
+.main {
+  width: 100vw;
+}
+
+.back {
+  background: #4c00b4;
+  width: 10%;
+  margin: 2%;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 2% auto;
+  background: #fff;
+  padding-bottom: 1%;
+  width: 40%;
+  border: 2px solid #3c009d;
+  border-radius: 10px;
+}
+
+.loginSignup {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin: 5% auto 1%;
+  width: 65%;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  padding: 2%;
+  color: #4c00b4;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px dashed #3c009d;
+}
+
+/* .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    width: 100%;
+    margin-top: 1%;
+  }
+
+.text {
+  color: #676767;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.underline {
+  width: 10%;
+  height: 0.4rem;
+  background: #3c009d;
+  border-radius: 9px;
+  margin-left: 1.3rem;
+} */
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  margin-top: 7.5%;
+}
+
+.input {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 65%;
+  background: #eaeaea;
+  border-radius: 6px;
+  color: #797979;
+}
+
+.input .img {
+  height: 50px;
+  width: 50px;
+}
+
+.input .img .icon {
+  height: 100%;
+  width: 100%;
+}
+
+.input .profile {
+  height: 100%;
+  width: 100%;
+  padding: 0.9rem;
+  cursor: pointer;
+}
+
+.input input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 1rem;
+  padding-left: 1%;
+}
+
+.extra {
+  display: flex;
+  margin: auto;
+  margin-top: 2%;
+  width: 65%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #797979;
+}
+
+.remember input {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.forgot-pass span {
+  color: #3c009d;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin: 5% auto;
+  width: 65%;
+}
+
+.gray {
+  color: #676767;
+  border: none;
+}
+
+.submit-btn {
+  width: 65%;
+  padding: 2%;
+  background-color: #4c00b4;
+  color: #fff;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  margin: 3% 17.5%;
+}
+
+.none {
+  display: none;
+}
