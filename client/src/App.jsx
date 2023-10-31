@@ -13,8 +13,6 @@ import Property from "./pages/Property/Property";
 import UserDetailContext from "./context/UserDetailContext";
 import Bookings from "./pages/Bookings/Bookings";
 import Favourites from "./pages/Favourites/Favourites";
-import Login from "./components/Auth/Login";
-import Signup from "./components/Auth/Signup";
 import Auth from "./components/Auth/auth";
 
 function App() {
